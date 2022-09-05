@@ -32,4 +32,4 @@ The system in order to provide users with a good navigation environment, to achi
 
 ## 3. Other
 
-[https://lubiao.hty.ink](https://lubiao.hty.ink/)，Help Manual Address:[https://hty.ink/help/HelpLubiao.pdf](https://hty.ink/help/HelpLubiao.pdf)
+System Instance Address:[https://lubiao.hty.ink](https://lubiao.hty.ink/)，Help Manual Address:[https://hty.ink/help/HelpLubiao.pdf](https://hty.ink/help/HelpLubiao.pdf)
