@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- 编码设置 -->
+    <meta charset="utf-8">
+    <!-- 渲染方式设置 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 移动端适应 -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <!-- 高德 api 导入 -->
+    <!-- key -->
+    <script type="text/javascript"
+        src="https://webapi.amap.com/maps?v=1.4.15&key=f24876220f5a5a19e4781d14ff84f6d4"></script>
+    <!-- <script type="text/javascript" src="../static/js/maps.js"></script> -->
+    <!-- css 导入 -->
+    <link href="../static/css/zidingyi_tanchuang.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/dao_han.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/sou_suo.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/xinxi_kuan.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/zhong_dian.css" rel="stylesheet" type="text/css" />
+    <!-- jquery 导入 -->
+    <script src="../static/js/jquery-3.6.0.js"></script>
+    <!--js 导入 -->
+    <script src="../static/js/zhidingyi_tanchuang.js" defer></script>
+    <script src="../static/js/dao_han.js" defer></script>
+    <script src="../static/js/dao_han_then.js" defer></script>
+    <script src="../static/js/math_lubiao.js" defer></script>
+    <title>智能路标定位系统</title>
+
+<body>
+    <!-- 搜索框 -->
+    <header class="bar">
+        <form name="search" class="search" id="search" action="">
+            <div class="search-row">
+                <input type="text" id="tishikuan" placeholder="查询">
+            </div>
+        </form>
+    </header>
+    <!-- 信息框 -->
+    <div class='zuoxiajiao' id='data_id'>
+        <div class="ziti_2_keyonlubiao"><a href="https://hty.ink/help/HelpLubiao.pdf" target="_blank">使用前请先点击此处以阅读帮助手册</a>
+        </div>
+        <div class="ziti_1_keyonlubiao"><span class='kai_fa_zhe_ziti' id="kai_fa_zhe"></span></div>
+        <div class="ziti_1_keyonlubiao" id="tishi_qidian_div"><span class='kai_fa_zhe_ziti' id="tishi_qidian"></span>
+        </div>
+        <div class="ziti_1_keyonlubiao"><span class='chaxun_ziti' id="cha_xun"></span></div>
+        <div class="ziti_1_keyonlubiao">起点为：<span class='qi_dian_ziti' id="qi_dian"></span></div>
+        <div class="ziti_1_keyonlubiao">我的位置：<span class='my_wei_zhi_ziti' id="my_wei_zhi_dian"></span></div>
+        <div class="ziti_1_keyonlubiao">终点为：<span class='zhong_dian_ziti' id="zhong_dian">请点选终点</span></div>
+        <div class="ziti_1_keyonlubiao">路标状态：<span class='lubiao_ziti' id="lubiao_status">请先规划路径</span></div>
+        <div class="ziti_1_keyonlubiao" id="status_div">状态：<span id="status"></span></div>
+         <!--备案框 -->
+         <div class="ziti_2_keyonlubiao"><a href="https://beian.miit.gov.cn/" target="_blank">京 ICP 备
+                2021032418 号 - 1</a>
+        </div>
+    </div>
+    <!-- 防误触 -->
+    <div class='wuchu'></div>
+    <!-- 路线框 -->
+    <div id="panel"></div>
+    <!-- 地图背景 -->
+    <div id='container'></div>
+    <!-- 定位 -->
+    <div class="dingwei-geolocation-con" id='dingwei_zhixiang'></div>
+    <!-- 起点指向 -->
+    <div class="qi-geolocation-con" id='qi_zhixiang'></div>
+    <!-- 起点终点切换设置 -->
+    <div class="zhong-geolocation-con" id='zhongdian_qidian_zhixiang'></div>
+    <!-- 路径指向 -->
+    <div class="go-geolocation-con" id='go_zhixiang'></div>
+    <!-- 路标调用 -->
+    <div class="lubiao-geolocation-con" id='lubiao_zhixiang'></div>
+    <!-- 程序测试用按键 -->
+    <div class="test-geolocation-con" id='test_kaifazhe'></div>
+
+</body>
+
+
+
+</html>

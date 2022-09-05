@@ -1,0 +1,62 @@
+/* 背景地图全屏化
+这里 101% 是为了遮蔽高德地图的商标
+*/
+
+html, body, #container {
+    height: 105%;
+    width: 100%;
+    margin: 0 0 0 0;
+    /* 隐藏滚动条 */
+    overflow: hidden hidden;
+}
+
+#panel {
+    position: fixed;
+    background-color: white;
+    max-height: 30%;
+    overflow-y: auto;
+    top: 60px;
+    right: 6px;
+    width: 30%;
+    /* z-index: 9999; */
+    /* 故意将这个路径提示框隐藏，因为这个和本软件主要功能无关 */
+    border-radius: 20px;
+}
+
+.planTitle h3 {
+    /* 路径框的标题大小 */
+    font-size: 50%;
+    color: #c71b1b;
+}
+
+#panel .amap-call {
+    background-color: #009cf9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+}
+
+#panel .amap-lib-driving {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+a:link {
+    color: rgb(128, 16, 35);
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(224, 9, 160);
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}

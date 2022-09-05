@@ -1,0 +1,117 @@
+.zhong-geolocation-con {
+    background: #fff url("../image/zhong.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 5px;
+    bottom: 52px;
+    opacity: 0.9;
+}
+
+.go-geolocation-con {
+    background: #fff url("../image/go.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 55px;
+    bottom: 52px;
+    opacity: 0.9;
+}
+
+.lubiao-geolocation-con {
+    background: #fff url("../image/lubiao.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 55px;
+    bottom: 5px;
+    opacity: 0.9;
+}
+
+.qi-geolocation-con {
+    background: #fff url("../image/qi.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 5px;
+    bottom: 100px;
+    opacity: 0.9;
+}
+
+.test-geolocation-con {
+    background: #fff url("../image/kaifa.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 55px;
+    bottom: 100px;
+    opacity: 0.9;
+}
+
+.dingwei-geolocation-con {
+    background: #fff url("../image/loc_gray.png") no-repeat;
+    background-size: cover;
+    /* 覆盖:图片成比例填满盒子。可用于适配 */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    right: 5px;
+    bottom: 5px;
+    opacity: 0.9;
+}
+
+.qi_dian_ziti {
+    color: blue;
+}
+
+.kai_fa_zhe_ziti {
+    color: rgb(250, 10, 42);
+}
+
+.chaxun_ziti {
+    color: rgb(18, 187, 209);
+}
+
+.zhong_dian_ziti {
+    color: rgb(238, 15, 238);
+}
+
+.my_wei_zhi_ziti {
+    color: rgb(165, 4, 4);
+}
+
+.lubiao_ziti {
+    color: rgb(209, 17, 59);
+}
+
+.my_ziti {
+    color: rgb(10, 140, 247);
+}
